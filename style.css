@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.logo {
+    font-weight: 300;
+    padding: 20px;
+    font-family: fantasy;
+}
+
+.icon {
+    width: 200px;
+    height: 200px;
+}
+
+.skills-icon {
+    width: 100px;
+    padding-top: 35px;
+    transition: 0.3s ease-out;
+}
+
+.skills-icon:hover {
+    transform: scale(1.4);
+}
+
+.my-img {
+    text-align: center;
+}
+
+.card-title {
+    padding: 6px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.card-image {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    margin: auto;
+}
+
+
+p {
+    line-height: 1.6em;
+    font-size: 16px;
+}
+
+.parallax-container {
+    height: 430px !important;
+}
+
+.social-icon {
+    margin: 5px 10px;
+}
+
+.links ul li {
+    display: inline;
+    margin: 2px;
+    font-size: 16px;
+}
+
+.links {
+    margin-top: 10px;
+}
+
+h3 {
+    font-weight: bold !important;
+}
+
+
+#about {
+    font-size: 16px;
+    line-height: 1.5em;
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+#skills {
+    font-size: 16px;
+    line-height: 1.5em;
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+#contact {
+    background-color: #fff;
+    padding: 30px;
+}
+
+#services {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+}
